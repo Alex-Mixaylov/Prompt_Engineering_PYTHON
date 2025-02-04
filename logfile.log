@@ -1,0 +1,160 @@
+2025-02-04 16:14:52,379 - INFO - Начало вычисления count_numbers_with_three для n = 2024
+2025-02-04 16:14:52,380 - DEBUG - Преобразовано число в строку: 2024, длина: 4
+2025-02-04 16:14:52,381 - DEBUG - Вход в dfs: pos = 0, tight = True, has_three = False
+2025-02-04 16:14:52,381 - DEBUG - На позиции 0, ограничение (limit) = 2
+2025-02-04 16:14:52,381 - DEBUG - На позиции 0, рассматриваю цифру d = 0
+2025-02-04 16:14:52,381 - DEBUG - Следующий вызов dfs: pos = 1, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,381 - DEBUG - Вход в dfs: pos = 1, tight = False, has_three = False
+2025-02-04 16:14:52,382 - DEBUG - На позиции 1, ограничение (limit) = 9
+2025-02-04 16:14:52,382 - DEBUG - На позиции 1, рассматриваю цифру d = 0
+2025-02-04 16:14:52,383 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,383 - DEBUG - Вход в dfs: pos = 2, tight = False, has_three = False
+2025-02-04 16:14:52,383 - DEBUG - На позиции 2, ограничение (limit) = 9
+2025-02-04 16:14:52,383 - DEBUG - На позиции 2, рассматриваю цифру d = 0
+2025-02-04 16:14:52,384 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,384 - DEBUG - Вход в dfs: pos = 3, tight = False, has_three = False
+2025-02-04 16:14:52,384 - DEBUG - На позиции 3, ограничение (limit) = 9
+2025-02-04 16:14:52,384 - DEBUG - На позиции 3, рассматриваю цифру d = 0
+2025-02-04 16:14:52,384 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,385 - DEBUG - Вход в dfs: pos = 4, tight = False, has_three = False
+2025-02-04 16:14:52,385 - DEBUG - Базовый случай достигнут на pos = 4, возвращаю 0
+2025-02-04 16:14:52,385 - DEBUG - На позиции 3, рассматриваю цифру d = 1
+2025-02-04 16:14:52,385 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,385 - DEBUG - На позиции 3, рассматриваю цифру d = 2
+2025-02-04 16:14:52,386 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,386 - DEBUG - На позиции 3, рассматриваю цифру d = 3
+2025-02-04 16:14:52,386 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,386 - DEBUG - Вход в dfs: pos = 4, tight = False, has_three = True
+2025-02-04 16:14:52,386 - DEBUG - Базовый случай достигнут на pos = 4, возвращаю 1
+2025-02-04 16:14:52,386 - DEBUG - На позиции 3, рассматриваю цифру d = 4
+2025-02-04 16:14:52,386 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,387 - DEBUG - На позиции 3, рассматриваю цифру d = 5
+2025-02-04 16:14:52,387 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,387 - DEBUG - На позиции 3, рассматриваю цифру d = 6
+2025-02-04 16:14:52,387 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,387 - DEBUG - На позиции 3, рассматриваю цифру d = 7
+2025-02-04 16:14:52,387 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,387 - DEBUG - На позиции 3, рассматриваю цифру d = 8
+2025-02-04 16:14:52,387 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,388 - DEBUG - На позиции 3, рассматриваю цифру d = 9
+2025-02-04 16:14:52,388 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,388 - DEBUG - Выход из dfs: pos = 3, возвращаю total = 1
+2025-02-04 16:14:52,388 - DEBUG - На позиции 2, рассматриваю цифру d = 1
+2025-02-04 16:14:52,389 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,389 - DEBUG - На позиции 2, рассматриваю цифру d = 2
+2025-02-04 16:14:52,389 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,389 - DEBUG - На позиции 2, рассматриваю цифру d = 3
+2025-02-04 16:14:52,389 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,389 - DEBUG - Вход в dfs: pos = 3, tight = False, has_three = True
+2025-02-04 16:14:52,389 - DEBUG - На позиции 3, ограничение (limit) = 9
+2025-02-04 16:14:52,389 - DEBUG - На позиции 3, рассматриваю цифру d = 0
+2025-02-04 16:14:52,389 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,389 - DEBUG - На позиции 3, рассматриваю цифру d = 1
+2025-02-04 16:14:52,390 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,390 - DEBUG - На позиции 3, рассматриваю цифру d = 2
+2025-02-04 16:14:52,390 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,390 - DEBUG - На позиции 3, рассматриваю цифру d = 3
+2025-02-04 16:14:52,390 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,390 - DEBUG - На позиции 3, рассматриваю цифру d = 4
+2025-02-04 16:14:52,390 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,390 - DEBUG - На позиции 3, рассматриваю цифру d = 5
+2025-02-04 16:14:52,391 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,392 - DEBUG - На позиции 3, рассматриваю цифру d = 6
+2025-02-04 16:14:52,392 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,392 - DEBUG - На позиции 3, рассматриваю цифру d = 7
+2025-02-04 16:14:52,392 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,392 - DEBUG - На позиции 3, рассматриваю цифру d = 8
+2025-02-04 16:14:52,392 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,392 - DEBUG - На позиции 3, рассматриваю цифру d = 9
+2025-02-04 16:14:52,393 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,393 - DEBUG - Выход из dfs: pos = 3, возвращаю total = 10
+2025-02-04 16:14:52,393 - DEBUG - На позиции 2, рассматриваю цифру d = 4
+2025-02-04 16:14:52,393 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,393 - DEBUG - На позиции 2, рассматриваю цифру d = 5
+2025-02-04 16:14:52,393 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,394 - DEBUG - На позиции 2, рассматриваю цифру d = 6
+2025-02-04 16:14:52,394 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,394 - DEBUG - На позиции 2, рассматриваю цифру d = 7
+2025-02-04 16:14:52,394 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,395 - DEBUG - На позиции 2, рассматриваю цифру d = 8
+2025-02-04 16:14:52,396 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,396 - DEBUG - На позиции 2, рассматриваю цифру d = 9
+2025-02-04 16:14:52,396 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,396 - DEBUG - Выход из dfs: pos = 2, возвращаю total = 19
+2025-02-04 16:14:52,396 - DEBUG - На позиции 1, рассматриваю цифру d = 1
+2025-02-04 16:14:52,397 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,397 - DEBUG - На позиции 1, рассматриваю цифру d = 2
+2025-02-04 16:14:52,397 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,397 - DEBUG - На позиции 1, рассматриваю цифру d = 3
+2025-02-04 16:14:52,397 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,398 - DEBUG - Вход в dfs: pos = 2, tight = False, has_three = True
+2025-02-04 16:14:52,398 - DEBUG - На позиции 2, ограничение (limit) = 9
+2025-02-04 16:14:52,398 - DEBUG - На позиции 2, рассматриваю цифру d = 0
+2025-02-04 16:14:52,398 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,398 - DEBUG - На позиции 2, рассматриваю цифру d = 1
+2025-02-04 16:14:52,398 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,400 - DEBUG - На позиции 2, рассматриваю цифру d = 2
+2025-02-04 16:14:52,401 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,401 - DEBUG - На позиции 2, рассматриваю цифру d = 3
+2025-02-04 16:14:52,401 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,401 - DEBUG - На позиции 2, рассматриваю цифру d = 4
+2025-02-04 16:14:52,402 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,402 - DEBUG - На позиции 2, рассматриваю цифру d = 5
+2025-02-04 16:14:52,402 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,402 - DEBUG - На позиции 2, рассматриваю цифру d = 6
+2025-02-04 16:14:52,402 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,402 - DEBUG - На позиции 2, рассматриваю цифру d = 7
+2025-02-04 16:14:52,402 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,403 - DEBUG - На позиции 2, рассматриваю цифру d = 8
+2025-02-04 16:14:52,403 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,403 - DEBUG - На позиции 2, рассматриваю цифру d = 9
+2025-02-04 16:14:52,403 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,403 - DEBUG - Выход из dfs: pos = 2, возвращаю total = 100
+2025-02-04 16:14:52,404 - DEBUG - На позиции 1, рассматриваю цифру d = 4
+2025-02-04 16:14:52,404 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,404 - DEBUG - На позиции 1, рассматриваю цифру d = 5
+2025-02-04 16:14:52,404 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,405 - DEBUG - На позиции 1, рассматриваю цифру d = 6
+2025-02-04 16:14:52,405 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,405 - DEBUG - На позиции 1, рассматриваю цифру d = 7
+2025-02-04 16:14:52,405 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,405 - DEBUG - На позиции 1, рассматриваю цифру d = 8
+2025-02-04 16:14:52,405 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,405 - DEBUG - На позиции 1, рассматриваю цифру d = 9
+2025-02-04 16:14:52,405 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,406 - DEBUG - Выход из dfs: pos = 1, возвращаю total = 271
+2025-02-04 16:14:52,406 - DEBUG - На позиции 0, рассматриваю цифру d = 1
+2025-02-04 16:14:52,406 - DEBUG - Следующий вызов dfs: pos = 1, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,406 - DEBUG - На позиции 0, рассматриваю цифру d = 2
+2025-02-04 16:14:52,407 - DEBUG - Следующий вызов dfs: pos = 1, next_tight = True, next_has_three = False
+2025-02-04 16:14:52,407 - DEBUG - Вход в dfs: pos = 1, tight = True, has_three = False
+2025-02-04 16:14:52,407 - DEBUG - На позиции 1, ограничение (limit) = 0
+2025-02-04 16:14:52,408 - DEBUG - На позиции 1, рассматриваю цифру d = 0
+2025-02-04 16:14:52,408 - DEBUG - Следующий вызов dfs: pos = 2, next_tight = True, next_has_three = False
+2025-02-04 16:14:52,408 - DEBUG - Вход в dfs: pos = 2, tight = True, has_three = False
+2025-02-04 16:14:52,408 - DEBUG - На позиции 2, ограничение (limit) = 2
+2025-02-04 16:14:52,408 - DEBUG - На позиции 2, рассматриваю цифру d = 0
+2025-02-04 16:14:52,408 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,409 - DEBUG - На позиции 2, рассматриваю цифру d = 1
+2025-02-04 16:14:52,409 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,409 - DEBUG - На позиции 2, рассматриваю цифру d = 2
+2025-02-04 16:14:52,409 - DEBUG - Следующий вызов dfs: pos = 3, next_tight = True, next_has_three = False
+2025-02-04 16:14:52,409 - DEBUG - Вход в dfs: pos = 3, tight = True, has_three = False
+2025-02-04 16:14:52,410 - DEBUG - На позиции 3, ограничение (limit) = 4
+2025-02-04 16:14:52,410 - DEBUG - На позиции 3, рассматриваю цифру d = 0
+2025-02-04 16:14:52,410 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,410 - DEBUG - На позиции 3, рассматриваю цифру d = 1
+2025-02-04 16:14:52,410 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,410 - DEBUG - На позиции 3, рассматриваю цифру d = 2
+2025-02-04 16:14:52,410 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = False
+2025-02-04 16:14:52,411 - DEBUG - На позиции 3, рассматриваю цифру d = 3
+2025-02-04 16:14:52,411 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = False, next_has_three = True
+2025-02-04 16:14:52,411 - DEBUG - На позиции 3, рассматриваю цифру d = 4
+2025-02-04 16:14:52,411 - DEBUG - Следующий вызов dfs: pos = 4, next_tight = True, next_has_three = False
+2025-02-04 16:14:52,411 - DEBUG - Вход в dfs: pos = 4, tight = True, has_three = False
+2025-02-04 16:14:52,411 - DEBUG - Базовый случай достигнут на pos = 4, возвращаю 0
+2025-02-04 16:14:52,412 - DEBUG - Выход из dfs: pos = 3, возвращаю total = 1
+2025-02-04 16:14:52,412 - DEBUG - Выход из dfs: pos = 2, возвращаю total = 3
+2025-02-04 16:14:52,412 - DEBUG - Выход из dfs: pos = 1, возвращаю total = 3
+2025-02-04 16:14:52,412 - DEBUG - Выход из dfs: pos = 0, возвращаю total = 545
+2025-02-04 16:14:52,412 - INFO - Окончательный результат count_numbers_with_three: 544
